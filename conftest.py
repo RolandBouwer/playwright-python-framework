@@ -3,10 +3,10 @@ import pytest
 
 import base64
 
-from Pages.LoginPage import LoginPage
+# from Pages.login_page import LoginPage
 from Utilities.read_config import AppConfiguration
 from playwright.sync_api import sync_playwright
-from Pages.ProductsListPage import ProductsListPage
+# from Pages.ProductsListPage import ProductsListPage
 
 
 @pytest.fixture()
